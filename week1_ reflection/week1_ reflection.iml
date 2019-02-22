@@ -7,5 +7,39 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/Documents/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/Documents/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="JUnit5.3">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../junit-jupiter-api-5.4.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../apiguardian-api-1.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../opentest4j-1.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../junit-platform-commons-1.4.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../junit-jupiter-api-5.4.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../apiguardian-api-1.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../opentest4j-1.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../junit-platform-commons-1.4.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
