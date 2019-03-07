@@ -8,7 +8,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
 class PrimeAdderTest {
-
     @Autowired
     Primes primes;
 
@@ -33,7 +32,7 @@ class PrimeAdderTest {
     }
     @Test
     void acculameter2PrimeNumber() {
-        Integer result = primeAdder.acculameter(3);
+        Integer result = primeAdder.acculameter(5);
         Integer expected = 5;
 
         assertEquals(expected,result);

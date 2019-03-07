@@ -1,0 +1,23 @@
+word:
+  text: fantastic
+number:
+  value: 369
+days:
+  day: sunday, monday, tuesday, wednesday, thursday, friday, saturday
+things:
+  books:
+    HarryPotter: 3
+    TheFoundation: 2
+    TheLordoftheRings: 4
+sauna:
+  availableSeats: 5
+  temperature: 33
+dancer:
+  ballerina:
+  - name: ha
+    performance: 5
+  - name: mimi
+    performance: 4
+  - name: niee
+    performance: 1
+
