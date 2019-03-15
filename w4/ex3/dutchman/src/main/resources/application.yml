@@ -1,0 +1,6 @@
+  server:
+    port: 9002
+
+  deadMansChest:
+    chest: 1000 Coins
+

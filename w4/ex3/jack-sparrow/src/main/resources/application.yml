@@ -1,0 +1,5 @@
+server:
+  port: 9000
+jacksparrowclient:
+  server:
+    url: http://localhost:9001/dutchman

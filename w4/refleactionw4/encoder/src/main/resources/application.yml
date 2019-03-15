@@ -1,0 +1,7 @@
+server:
+  port: 9000
+
+encoderclient:
+  server:
+   url: http://localhost:9001/morse
+

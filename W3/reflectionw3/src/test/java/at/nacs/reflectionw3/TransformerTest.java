@@ -34,7 +34,6 @@ class TransformerTest {
 
         Assertions.assertEquals(expected, result);
     }
-
     @ParameterizedTest
     @CsvSource({"2, thumb touches back",
             "3, little finger grab",
