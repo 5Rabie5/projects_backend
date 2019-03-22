@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fengshui-api/fengshui-api.iml" filepath="$PROJECT_DIR$/fengshui-api/fengshui-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fengshui-profiler/fengshui-profiler.iml" filepath="$PROJECT_DIR$/fengshui-profiler/fengshui-profiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/the-feng-shui-compatibility.iml" filepath="$PROJECT_DIR$/the-feng-shui-compatibility.iml" />
+    </modules>
+  </component>
+</project>

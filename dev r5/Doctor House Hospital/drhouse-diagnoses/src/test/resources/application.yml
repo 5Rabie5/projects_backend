@@ -1,0 +1,11 @@
+server:
+  port: 9002
+info:
+  symptomsbank:
+    abwehrspannung: 10
+    angst: 200
+    aphthen: 300
+  diagnosisbank:
+    10: Epistaxis
+    200: Internists
+    300: Nose Infection

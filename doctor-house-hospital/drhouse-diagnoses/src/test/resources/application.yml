@@ -1,0 +1,11 @@
+server:
+  port: 9002
+info:
+  symptomsbank:
+    defensiveVoltage: 10
+    fear: 200
+    aphthousUlcers: 300
+  diagnosisbank:
+    10: Epistaxis
+    300: Internists
+    200: Nose Infection
