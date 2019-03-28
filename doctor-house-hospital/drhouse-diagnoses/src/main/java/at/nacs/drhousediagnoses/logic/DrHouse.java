@@ -45,8 +45,8 @@ public class DrHouse {
 
     private void forward(Patient patient) {
         if (patient.getDiagnosis().equals("lupus")) {
-            bedsClient.forward(patient);
+            pharmacyClient.forward(patient);
         }
-        pharmacyClient.forward(patient);
+        bedsClient.forward(patient);
     }
 }

@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Doctor House Hospital.iml" filepath="$PROJECT_DIR$/Doctor House Hospital.iml" />
       <module fileurl="file://$PROJECT_DIR$/drhouse-admission/drhouse-admission.iml" filepath="$PROJECT_DIR$/drhouse-admission/drhouse-admission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drhouse-beds/drhouse-beds.iml" filepath="$PROJECT_DIR$/drhouse-beds/drhouse-beds.iml" />
       <module fileurl="file://$PROJECT_DIR$/drhouse-diagnoses/drhouse-diagnoses.iml" filepath="$PROJECT_DIR$/drhouse-diagnoses/drhouse-diagnoses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drhouse-pharmacy/drhouse-pharmacy.iml" filepath="$PROJECT_DIR$/drhouse-pharmacy/drhouse-pharmacy.iml" />
     </modules>
   </component>
 </project>

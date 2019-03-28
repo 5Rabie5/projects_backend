@@ -6,6 +6,12 @@ info:
     fear: 200
     aphthousUlcers: 300
   diagnosisbank:
-    10: Epistaxis
-    300: Internists
-    200: Nose Infection
+    10: epistaxis
+    300: internists
+    200: noseinfection
+beds:
+  server:
+    url: http://localhost:9003/patients
+pharmacy:
+  server:
+    url: http://localhost:9004/patients

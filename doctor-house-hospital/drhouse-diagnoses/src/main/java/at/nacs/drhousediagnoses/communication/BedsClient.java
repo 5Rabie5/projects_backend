@@ -1,7 +1,10 @@
 package at.nacs.drhousediagnoses.communication;
 
 import at.nacs.drhousediagnoses.domain.Patient;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+import lombok.Setter;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
@@ -9,8 +12,13 @@ import org.springframework.web.client.RestTemplate;
 @RequiredArgsConstructor
 public class BedsClient {
 
+//   @Value("${beds.server.url}")
+//    private String url;
+
     private final RestTemplate restTemplate;
 
-    public void forward(Patient patient) {
+    public Patient forward(Patient patient) {
+        restTemplate.postForObject("http://localhost:9003/patients",patient,Patient.class);
+        return patient;
     }
 }

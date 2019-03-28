@@ -16,7 +16,7 @@ public class SignEndPoint {
 private final SignClient signClient;
 
 @GetMapping("/{birthday}")
-    public String get(@PathVariable LocalDate birthday){
-    return signClient.get(birthday);
+    public Profile get(@PathVariable LocalDate birthday){
+    return signClient.getSign(birthday);
 }
 }
