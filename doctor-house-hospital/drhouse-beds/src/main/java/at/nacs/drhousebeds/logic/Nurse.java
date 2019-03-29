@@ -11,13 +11,13 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.Map;
+
 @Component
 @Service
 @RequiredArgsConstructor
 @ConfigurationProperties("info")
 @Setter
 @Getter
-
 public class Nurse {
 
     private final Map<String, String> tretmentsbank;

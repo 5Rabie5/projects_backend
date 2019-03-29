@@ -4,7 +4,6 @@ import at.nacs.drhousepharmacy.communication.AccountancyClient;
 import at.nacs.drhousepharmacy.persistence.domain.Patient;
 import at.nacs.drhousepharmacy.persistence.repository.PharmacyRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Service

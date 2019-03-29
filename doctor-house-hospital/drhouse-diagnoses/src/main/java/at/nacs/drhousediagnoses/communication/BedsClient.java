@@ -12,13 +12,13 @@ import org.springframework.web.client.RestTemplate;
 @RequiredArgsConstructor
 public class BedsClient {
 
-//   @Value("${beds.server.url}")
-//    private String url;
+   @Value("${beds.server.url}")
+    private String url;
 
     private final RestTemplate restTemplate;
 
     public Patient forward(Patient patient) {
-        restTemplate.postForObject("http://localhost:9003/patients",patient,Patient.class);
+        restTemplate.postForObject(url,patient,Patient.class);
         return patient;
     }
 }

@@ -42,5 +42,4 @@ class PatientsEndpointTest {
         assertThat(response.getSymptoms()).isEqualTo("aphthousUlcers");
         assertThat(response.getDiagnosis()).isEqualTo("Internists");
     }
-
 }

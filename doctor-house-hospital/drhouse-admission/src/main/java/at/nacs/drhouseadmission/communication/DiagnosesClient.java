@@ -12,11 +12,11 @@ public class DiagnosesClient {
 
     private final RestTemplate restTemplate;
 
-//    @Value("${diagnoses.server.url}")
-//    private String url;
+    @Value("${diagnoses.server.url}")
+    private String url;
 
     public Patient forward(Patient patient) {
-        restTemplate.postForObject("http://localhost:9002/patients", patient, Patient.class);
+        restTemplate.postForObject(url, patient, Patient.class);
         return patient;
     }
 }
