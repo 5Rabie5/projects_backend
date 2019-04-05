@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/nacs_lecture
+    username: nacsuser
+    password: nacs
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 9000

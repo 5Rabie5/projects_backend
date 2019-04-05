@@ -1,0 +1,12 @@
+server:
+  port: 9000
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/phone_book?useSSL=false
+    username: ruser
+    password: nacs
+  jpa:
+    hibernate:
+      ddl-auto: update
+

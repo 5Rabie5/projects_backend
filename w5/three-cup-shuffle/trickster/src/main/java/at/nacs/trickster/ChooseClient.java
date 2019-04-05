@@ -8,6 +8,10 @@ import org.springframework.web.client.RestTemplate;
 @RequiredArgsConstructor
 public class ChooseClient {
     private final RestTemplate restTemplate;
+/*
+*  @ PARM : NUMBER type Integer
+*  return : String of anmem
+* */
     public String check(Integer number) {
         String url = "http://localhost:900" + number + "/coin";
         Boolean respond = restTemplate.getForObject(url,Boolean.class);

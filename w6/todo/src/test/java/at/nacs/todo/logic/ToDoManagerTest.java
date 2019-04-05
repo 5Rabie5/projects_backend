@@ -20,8 +20,10 @@ class ToDoManagerTest {
 
     @Autowired
     ToDoManager toDoManager;
+
     @Autowired
     ToDoRepository toDoRepository;
+
     @Setter
     List<ToDo> todos;
 

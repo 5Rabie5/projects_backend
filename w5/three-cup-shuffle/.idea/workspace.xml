@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f334101-4f4e-425a-ad44-f5141269b329" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../w7/lecturereview/src/main/java/at/nacs/lecturereview/configuration/RestTemplateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../w7/lecturereview/src/main/java/at/nacs/lecturereview/persistence/domain/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../w7/lecturereview/src/main/java/at/nacs/lecturereview/persistence/domain/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../w7/phonbook/src/main/java/at/nacs/phonbook/configuration/RestTemplateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../w7/phonbook/src/main/java/at/nacs/phonbook/persistence/domain/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../w7/phonbook/src/main/java/at/nacs/phonbook/persistence/domain/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../doctor-house-hospital/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../doctor-house-hospital/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the-feng-shui-compatibility/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../the-feng-shui-compatibility/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the-feng-shui-compatibility/fengshui-api/src/main/java/at/nacs/fengshuiapi/communication/SignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../the-feng-shui-compatibility/fengshui-api/src/main/java/at/nacs/fengshuiapi/communication/SignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the-feng-shui-compatibility/fengshui-api/src/main/java/at/nacs/fengshuiapi/communication/SignEndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../the-feng-shui-compatibility/fengshui-api/src/main/java/at/nacs/fengshuiapi/communication/SignEndPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the-feng-shui-compatibility/fengshui-api/src/main/java/at/nacs/fengshuiapi/domain/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../the-feng-shui-compatibility/fengshui-api/src/main/java/at/nacs/fengshuiapi/domain/Profile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/ChooseClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/ChooseClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w6/todo/src/test/java/at/nacs/todo/communication/ToDoEndPointTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../w6/todo/src/test/java/at/nacs/todo/communication/ToDoEndPointTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w6/todo/src/test/java/at/nacs/todo/logic/ToDoManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../w6/todo/src/test/java/at/nacs/todo/logic/ToDoManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../workshop-docker" beforeDir="false" afterPath="$PROJECT_DIR$/../../workshop-docker" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/PlayClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="66" />
+            <state relative-caret-position="479">
+              <caret line="27" column="47" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,15 +39,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/Cup.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/PlayEndPoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/ChooseClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="189">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,7 +62,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trickster/src/test/java/at/nacs/trickster/TricksterApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trickster/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/Cup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/TricksterApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="232">
@@ -58,25 +93,6 @@
               <folding>
                 <element signature="e#323#324#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/configuration/CorsConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cup/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10469">
-              <caret line="497" column="44" selection-start-line="497" selection-start-column="44" selection-end-line="497" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -135,10 +151,10 @@
         <option value="$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/Cup.java" />
         <option value="$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/PlayClient.java" />
         <option value="$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/PlayEndPoint.java" />
-        <option value="$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/ChooseClient.java" />
         <option value="$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/ChooseEndPoint.java" />
         <option value="$PROJECT_DIR$/trickster/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cup/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/ChooseClient.java" />
       </list>
     </option>
   </component>
@@ -179,7 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,29 +238,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="trickster" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="the-three-cup-shuffle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="three-cup-shuffle" type="462c0819:PsiDirectoryNode" />
-              <item name="trickster" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="trickster" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="the-three-cup-shuffle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="three-cup-shuffle" type="462c0819:PsiDirectoryNode" />
-              <item name="trickster" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -397,6 +395,9 @@
       <workItem from="1553245094808" duration="7000" />
       <workItem from="1553261253633" duration="449000" />
       <workItem from="1553264648944" duration="598000" />
+      <workItem from="1553875742959" duration="685000" />
+      <workItem from="1554211089518" duration="329000" />
+      <workItem from="1554291527187" duration="88000" />
     </task>
     <servers />
   </component>
@@ -424,13 +425,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11604000" />
+    <option name="totallyTimeSpent" value="12706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1533" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26294553" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2669805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -518,39 +519,6 @@
     <entry file="file://$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/configuration/RestTemplateConfiguration.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/PlayEndPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/PlayClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/Cup.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/ChooseClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/configuration/CorsConfiguration.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -561,6 +529,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10469">
           <caret line="497" column="44" selection-start-line="497" selection-start-column="44" selection-end-line="497" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/PlayEndPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trickster/src/test/java/at/nacs/trickster/TricksterApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trickster/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/Cup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/TricksterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -588,12 +593,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/TricksterApplication.java">
+    <entry file="file://$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/ChooseClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="189">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
           <folding>
-            <element signature="e#323#324#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trickster/src/main/java/at/nacs/trickster/PlayClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

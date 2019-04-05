@@ -28,6 +28,7 @@ class ToDoEndPointTest {
     void get() {
         restTemplate.getForObject("/todos", ToDo[].class);
         verify(toDoManager).get();
+
     }
 
     @Test
@@ -52,7 +53,7 @@ class ToDoEndPointTest {
 
     @Test
     void delete() {
-        restTemplate.getForObject("/todos/uyt6tuy/done", ToDo.class);
-        verify(toDoManager).put(anyString());
+        restTemplate.delete("/todos/uuuu", ToDo.class);
+        verify(toDoManager).delete(Mockito.anyString());
     }
 }
