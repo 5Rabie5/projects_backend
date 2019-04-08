@@ -199,7 +199,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554719903417" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554725740406" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -235,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.VerifierTest.verifyPart3False">
+  <component name="RunManager" selected="JUnit.VerifierTest">
     <configuration name="VerifierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="password-verifier" />
       <extension name="coverage">
@@ -317,11 +317,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VerifierTest" />
         <item itemvalue="JUnit.VerifierTest.verifyPart3False" />
         <item itemvalue="JUnit.VerifierTest.verifyPart3True" />
         <item itemvalue="JUnit.VerifierTest.verifyPart2False" />
         <item itemvalue="JUnit.VerifierTest.verifyPart2True" />
-        <item itemvalue="JUnit.VerifierTest" />
       </list>
     </recent_temporary>
   </component>

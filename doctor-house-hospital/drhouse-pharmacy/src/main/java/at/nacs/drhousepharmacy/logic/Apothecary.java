@@ -15,8 +15,8 @@ public class Apothecary {
 
     public Patient handel(Patient patient) {
         provideMedicine(patient);
-        accountancyClient.foword(patient);
         pharmacyRepository.save(patient);
+        accountancyClient.foword(patient);
         return patient;
     }
 

@@ -6,7 +6,4 @@ public class ConditionLargerThan8 implements Verification {
     public Boolean condition(String password) {
         return password.length()>8;
     }
-
-    public ConditionLargerThan8() {
-    }
 }

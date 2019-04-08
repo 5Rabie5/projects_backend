@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Conditions {
+
     public static List<Verification> asList() {
         return Stream.of(
                 new ConditionLargerThan8(), new ConditionNotNull(),

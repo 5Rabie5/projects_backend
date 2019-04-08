@@ -11,7 +11,4 @@ public class ConditionOneNumber implements Verification {
                 .flatMap(Stream::of)
                 .anyMatch(e -> e.matches("\\d"));
     }
-
-    public ConditionOneNumber() {
-    }
-}
+ }

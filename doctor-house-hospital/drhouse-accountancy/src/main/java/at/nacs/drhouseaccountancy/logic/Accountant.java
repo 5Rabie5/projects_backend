@@ -63,11 +63,11 @@ public class Accountant {
     }
 
     private Kind getKind(PatientDTO patientDTO) {
-        Kind kind = Kind.TREATMENT;
-//        if (patientDTO.getMedicine().isEmpty()) {
-//            System.out.println("i am here kind switsh");
-//            kind = Kind.TREATMENT;
-//        }
+        Kind kind = Kind.MEDICINE;
+        if (patientDTO.getMedicine() == null) {
+            kind = Kind.TREATMENT;
+        }
+        System.out.println(kind);
         return kind;
     }
 

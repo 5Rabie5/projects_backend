@@ -12,7 +12,4 @@ public class ConditionOneUppercaseLetter implements Verification {
                 .map(e -> e.charAt(0))
                 .anyMatch(Character::isUpperCase);
     }
-
-    public ConditionOneUppercaseLetter() {
-    }
 }
