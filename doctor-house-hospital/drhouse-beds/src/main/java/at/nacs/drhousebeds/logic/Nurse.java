@@ -26,7 +26,7 @@ public class Nurse {
 
     public Patient treat(Patient patient) {
         provideTreatment(patient);
-        accountancyClient.foword();
+        accountancyClient.foword(patient);
         bedRepository.save(patient);
         return patient;
     }

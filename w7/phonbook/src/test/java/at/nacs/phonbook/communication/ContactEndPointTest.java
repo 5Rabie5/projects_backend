@@ -19,10 +19,10 @@ class ContactEndPointTest {
 
     @Autowired
     TestRestTemplate restTemplate;
-    @SpyBean
-    ContactManager contactManager;
     @MockBean
-    ContactRepository contactRepository;
+    ContactManager contactManager;
+//    @MockBean
+//    ContactRepository contactRepository;
 
     @Test
     void get() {

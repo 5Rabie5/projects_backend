@@ -10,6 +10,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -23,7 +24,7 @@ public class Accountant {
     public Patient merge(PatientDTO patientDTO) {
 
         Optional<Patient> patient = patientRrpository.findPatientByUuid(patientDTO.getId());
-
+        System.out.println("i recive the patient");
         if (patient.isPresent()) {
             createsInvoice(patientDTO);
             return patient.get();
@@ -32,8 +33,8 @@ public class Accountant {
         saveNewPationt(patientDTO);
         createsInvoice(patientDTO);
 
-       return patientRrpository.findPatientByUuid(patientDTO.getId()).get();
-          }
+        return patientRrpository.findPatientByUuid(patientDTO.getId()).get();
+    }
 
     private void saveNewPationt(PatientDTO patientDTO) {
         Patient patient = new Patient();
@@ -48,7 +49,7 @@ public class Accountant {
         Kind kind = getKind(patientDTO);
         String provided = getProvided(patientDTO, kind);
 
-        Invoice.builder()
+        Invoice invoice = Invoice.builder()
                 .patient(patient)
                 .symptoms(patientDTO.getSymptoms())
                 .diagnosis(patientDTO.getDiagnosis())
@@ -58,13 +59,15 @@ public class Accountant {
                 .paid(false)
                 .timestamp(LocalDateTime.now())
                 .build();
+        invoiceRepository.save(invoice);
     }
 
     private Kind getKind(PatientDTO patientDTO) {
-        Kind kind = Kind.MEDICINE;
-        if (patientDTO.getMedicine().isBlank()) {
-            kind = Kind.TREATMENT;
-        }
+        Kind kind = Kind.TREATMENT;
+//        if (patientDTO.getMedicine().isEmpty()) {
+//            System.out.println("i am here kind switsh");
+//            kind = Kind.TREATMENT;
+//        }
         return kind;
     }
 
@@ -91,5 +94,17 @@ public class Accountant {
                 break;
         }
         return cost;
+    }
+
+    public List<Invoice> displlyAllInvoice() {
+
+        return invoiceRepository.findAll();
+    }
+
+    public void setAspaid(Long id) {
+
+        Invoice invoice = invoiceRepository.findById(id).orElse(null);
+        invoice.setPaid(true);
+        invoiceRepository.save(invoice);
     }
 }

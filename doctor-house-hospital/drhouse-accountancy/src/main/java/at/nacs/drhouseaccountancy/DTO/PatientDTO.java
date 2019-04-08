@@ -1,7 +1,9 @@
 package at.nacs.drhouseaccountancy.DTO;
 
 import lombok.Data;
+import org.springframework.context.annotation.Configuration;
 
+@Configuration
 @Data
 public class PatientDTO {
 
