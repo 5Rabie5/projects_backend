@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60953b94-4fa7-466e-865b-b2bcbd67e32d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/persistence/domain/Symptom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../doctor-house-hospital/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../doctor-house-hospital/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../w7/socialnetwork/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../w7/socialnetwork/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../w8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../w8/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../w8/password-verifier/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/password-verifier/META-INF/password-verifier.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/password-verifier/conditions/ConditionNotNull.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../w8/password-verifier/out/production/password-verifier/conditions/ConditionNotNull.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/password-verifier/conditions/Conditions.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../w8/password-verifier/out/production/password-verifier/conditions/Conditions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/password-verifier/logic/Verifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../w8/password-verifier/out/production/password-verifier/logic/Verifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/password-verifier/logic/VerifierTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/w8/conditions/ConditionLargerThan8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/w8/conditions/ConditionNotNull.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/w8/conditions/ConditionOneLowercaseLetter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/w8/conditions/ConditionOneNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/w8/conditions/ConditionOneUppercaseLetter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/w8/conditions/Conditions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/w8/conditions/Verification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/w8/logic/Verifier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/w8/logic/VerifierTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/password-verifier.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../w8/password-verifier/password-verifier.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/src/conditions/ConditionNotNull.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../w8/password-verifier/src/conditions/ConditionNotNull.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/src/logic/Verifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../w8/password-verifier/src/logic/Verifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/src/logic/VerifierTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/src/conditions/ConditionOneLowercaseLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../w8/password-verifier/src/conditions/ConditionOneLowercaseLetter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../workshop-docker" beforeDir="false" afterPath="$PROJECT_DIR$/../../workshop-docker" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />

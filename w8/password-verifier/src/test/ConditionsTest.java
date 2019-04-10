@@ -14,9 +14,9 @@ import java.util.function.Predicate;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ConditionsTest {
+
     Verifier verifier = new Verifier();
     private List<Verification> conditions = Conditions.asList();
-
 
     @ParameterizedTest
     @CsvSource({

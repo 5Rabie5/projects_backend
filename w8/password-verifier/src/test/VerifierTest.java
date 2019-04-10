@@ -11,6 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class VerifierTest {
+
     List<Verification> conditions = Conditions.asList();
     Verifier verifier = new Verifier();
 

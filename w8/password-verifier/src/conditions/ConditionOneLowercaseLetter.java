@@ -6,14 +6,11 @@ public class ConditionOneLowercaseLetter implements Verification {
 
     @Override
     public Boolean condition(String password) {
-         return Stream.of(password)
+
+        return Stream.of(password)
                 .map(e -> e.split(""))
-                 .flatMap(Stream::of)
-                 .map(e -> e.charAt(0))
-                 .anyMatch(Character::isLowerCase);
+                .flatMap(Stream::of)
+                .map(e -> e.charAt(0))
+                .anyMatch(Character::isLowerCase);
     }
 }
-//   return Stream.of(password)
-//                .map(e -> e.split(""))
-//                .flatMap(Stream::of)
-//                .anyMatch(e -> e.matches("\\[[:lower]]"));
