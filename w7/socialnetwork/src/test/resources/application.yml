@@ -1,0 +1,9 @@
+dataset:
+  persons:
+    - name: diba
+      friends:
+        - name: rabie
+    - name: rabie
+      friends:
+        - name: diba
+    - name: omar

@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../../w8/password-verifier/src/test/ConditionsTest.java" description="&quot;ConditionOneNumber,4,2aaaaaaaaa,aaaaaaaaaa&quot;" line="26" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60953b94-4fa7-466e-865b-b2bcbd67e32d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/persistence/domain/Symptom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../doctor-house-hospital/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../doctor-house-hospital/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w7/socialnetwork/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../w7/socialnetwork/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../w8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../w8/password-verifier/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/password-verifier/META-INF/password-verifier.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/password-verifier/conditions/ConditionNotNull.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../w8/password-verifier/out/production/password-verifier/conditions/ConditionNotNull.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/password-verifier/conditions/Conditions.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../w8/password-verifier/out/production/password-verifier/conditions/Conditions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/password-verifier/logic/Verifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../w8/password-verifier/out/production/password-verifier/logic/Verifier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/password-verifier/logic/VerifierTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/w8/conditions/ConditionLargerThan8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/w8/conditions/ConditionNotNull.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/w8/conditions/ConditionOneLowercaseLetter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/w8/conditions/ConditionOneNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/w8/conditions/ConditionOneUppercaseLetter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/w8/conditions/Conditions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/w8/conditions/Verification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/w8/logic/Verifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/out/production/w8/logic/VerifierTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/password-verifier.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../w8/password-verifier/password-verifier.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/src/conditions/ConditionNotNull.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../w8/password-verifier/src/conditions/ConditionNotNull.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/src/logic/Verifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../w8/password-verifier/src/logic/Verifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../w8/password-verifier/src/logic/VerifierTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workshop-docker" beforeDir="false" afterPath="$PROJECT_DIR$/../../workshop-docker" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/drhouse-admission/target/" />
+    <ignored path="$PROJECT_DIR$/drhouse-diagnoses/target/" />
+    <ignored path="$PROJECT_DIR$/drhouse-beds/target/" />
+    <ignored path="$PROJECT_DIR$/drhouse-pharmacy/target/" />
+    <ignored path="$PROJECT_DIR$/drhouse-accountancy/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/persistence/domain/Symptom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/logic/Assistant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/configuration/RestTemplateConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/logic/DrHouse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="986">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/persistence/repository/SymptomRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/communication/PatientsEndpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/communication/SymptomEndPoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/HttpEncodingAutoConfiguration.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="899">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/DrhouseDiagnosesApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>i am here post</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/communication/PatientsEndpoint.java" />
+        <option value="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/configuration/RestTemplateConfiguration.java" />
+        <option value="$PROJECT_DIR$/drhouse-diagnoses/src/test/java/at/nacs/drhousediagnoses/logic/DrHouseTest.java" />
+        <option value="$PROJECT_DIR$/drhouse-beds/src/main/java/at/nacs/drhousebeds/configuration/RestTemplateConfiguration.java" />
+        <option value="$PROJECT_DIR$/drhouse-pharmacy/src/main/java/at/nacs/drhousepharmacy/configuration/RestTemplateConfiguration.java" />
+        <option value="$PROJECT_DIR$/drhouse-beds/src/main/java/at/nacs/drhousebeds/persistence/repository/BedRepository.java" />
+        <option value="$PROJECT_DIR$/drhouse-beds/src/main/java/at/nacs/drhousebeds/logic/BedsManager.java" />
+        <option value="$PROJECT_DIR$/drhouse-beds/src/main/java/at/nacs/drhousebeds/communication/BedsEndPoint.java" />
+        <option value="$PROJECT_DIR$/drhouse-beds/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/drhouse-admission/src/main/java/at/nacs/drhouseadmission/communication/PatientsEndPoint.java" />
+        <option value="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/logic/DrHouse.java" />
+        <option value="$PROJECT_DIR$/drhouse-diagnoses/src/test/resources/application.yml" />
+        <option value="$PROJECT_DIR$/drhouse-pharmacy/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/drhouse-pharmacy/src/main/java/at/nacs/drhousepharmacy/persistence/repository/PharmacyRepository.java" />
+        <option value="$PROJECT_DIR$/drhouse-beds/src/test/resources/application.yml" />
+        <option value="$PROJECT_DIR$/drhouse-beds/src/test/java/at/nacs/drhousebeds/communication/BedsEndPointTest.java" />
+        <option value="$PROJECT_DIR$/drhouse-pharmacy/src/main/java/at/nacs/drhousepharmacy/persistence/domain/Patient.java" />
+        <option value="$PROJECT_DIR$/drhouse-pharmacy/src/test/resources/application.yml" />
+        <option value="$PROJECT_DIR$/drhouse-pharmacy/src/test/java/at/nacs/drhousepharmacy/logic/ApothecaryTest.java" />
+        <option value="$PROJECT_DIR$/drhouse-admission/src/main/java/at/nacs/drhouseadmission/communication/DiagnosesClient.java" />
+        <option value="$PROJECT_DIR$/drhouse-admission/src/main/java/at/nacs/drhouseadmission/domain/Patient.java" />
+        <option value="$PROJECT_DIR$/drhouse-beds/src/main/java/at/nacs/drhousebeds/persistence/domain/Patient.java" />
+        <option value="$PROJECT_DIR$/drhouse-beds/src/test/java/at/nacs/drhousebeds/logic/NurseTest.java" />
+        <option value="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/communication/BedsClient.java" />
+        <option value="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/domain/Patient.java" />
+        <option value="$PROJECT_DIR$/drhouse-diagnoses/src/test/java/at/nacs/drhousediagnoses/communication/PatientsEndpointTest.java" />
+        <option value="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/communication/PharmacyClient.java" />
+        <option value="$PROJECT_DIR$/drhouse-pharmacy/src/main/java/at/nacs/drhousepharmacy/communication/PharmacyEndPoint.java" />
+        <option value="$PROJECT_DIR$/drhouse-pharmacy/src/test/java/at/nacs/drhousepharmacy/communication/PharmacyEndPointTest.java" />
+        <option value="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/configuration/CorsConfiguration.java" />
+        <option value="$PROJECT_DIR$/drhouse-accountancy/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/domain/Patient.java" />
+        <option value="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/domain/Kind.java" />
+        <option value="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/repository/InvoiceRepository.java" />
+        <option value="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/repository/PatientRrpository.java" />
+        <option value="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/domain/Invoice.java" />
+        <option value="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/DTO/PatientDTO.java" />
+        <option value="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/communication/AccountEndPoints.java" />
+        <option value="$PROJECT_DIR$/drhouse-beds/src/main/java/at/nacs/drhousebeds/logic/Nurse.java" />
+        <option value="$PROJECT_DIR$/drhouse-beds/src/main/java/at/nacs/drhousebeds/communication/AccountancyClient.java" />
+        <option value="$PROJECT_DIR$/drhouse-pharmacy/src/main/java/at/nacs/drhousepharmacy/communication/AccountancyClient.java" />
+        <option value="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/logic/Accountant.java" />
+        <option value="$PROJECT_DIR$/drhouse-pharmacy/src/main/java/at/nacs/drhousepharmacy/logic/Apothecary.java" />
+        <option value="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/domain/Symptoms.java" />
+        <option value="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/domain/Symptom.java" />
+        <option value="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/logic/SymptomAssistant.java" />
+        <option value="$PROJECT_DIR$/drhouse-diagnoses/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/persistence/repository/SymptomRepository.java" />
+        <option value="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/persistence/domain/Symptom.java" />
+        <option value="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/communication/SymptomEndPoint.java" />
+        <option value="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/logic/Assistant.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="drhouse-diagnoses" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="drhouse-diagnoses" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="67" />
+    <option name="width" value="1371" />
+    <option name="height" value="833" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="drhousediagnoses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="drhousediagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="communication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="drhousediagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="drhousediagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="drhousediagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="drhousediagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="drhousediagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-pharmacy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="drhousepharmacy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="drhousepharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="drhousepharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="drhousepharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-pharmacy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554852771703" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../w8/password-verifier" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="at.nacs.drhousepharmacy.logic" />
+      <recent name="at.nacs.drhousepharmacy.communication" />
+      <recent name="at.nacs.drhousebeds.logic" />
+      <recent name="at.nacs.drhousebeds.communication" />
+      <recent name="at.nacs.drhousediagnoses.logic" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="at.nacs.drhousediagnoses.persistence.domain" />
+      <recent name="at.nacs.drhouseadmission.logic" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="at.nacs.drhousepharmacy.communication" />
+      <recent name="at.nacs.drhousepharmacy.persistence.domain" />
+      <recent name="at.nacs.drhousebeds.persistence.domain" />
+      <recent name="at.nacs.drhousediagnoses.configuration" />
+      <recent name="at.nacs.drhousediagnoses.domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses" />
+      <recent name="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy" />
+      <recent name="$PROJECT_DIR$/drhouse-pharmacy/src/test" />
+      <recent name="$PROJECT_DIR$/drhouse-beds/src/test" />
+      <recent name="$PROJECT_DIR$/drhouse-pharmacy/src/main/java/at/nacs/drhousepharmacy" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="at.nacs.drhouseaccountancy.persistence.domain" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DrhouseDiagnosesApplication">
+    <configuration name="ApothecaryTest.handel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="drhouse-pharmacy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.nacs.drhousepharmacy.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.nacs.drhousepharmacy.logic" />
+      <option name="MAIN_CLASS_NAME" value="at.nacs.drhousepharmacy.logic.ApothecaryTest" />
+      <option name="METHOD_NAME" value="handel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BedsEndPointTest.post" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="drhouse-beds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.nacs.drhousebeds.communication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.nacs.drhousebeds.communication" />
+      <option name="MAIN_CLASS_NAME" value="at.nacs.drhousebeds.communication.BedsEndPointTest" />
+      <option name="METHOD_NAME" value="post" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NurseTest.treat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="drhouse-beds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.nacs.drhousebeds.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.nacs.drhousebeds.logic" />
+      <option name="MAIN_CLASS_NAME" value="at.nacs.drhousebeds.logic.NurseTest" />
+      <option name="METHOD_NAME" value="treat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatientsEndPointTest.post" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="drhouse-admission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.nacs.drhouseadmission.communication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.nacs.drhouseadmission.communication" />
+      <option name="MAIN_CLASS_NAME" value="at.nacs.drhouseadmission.communication.PatientsEndPointTest" />
+      <option name="METHOD_NAME" value="post" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PharmacyEndPointTest.post" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="drhouse-pharmacy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.nacs.drhousepharmacy.communication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.nacs.drhousepharmacy.communication" />
+      <option name="MAIN_CLASS_NAME" value="at.nacs.drhousepharmacy.communication.PharmacyEndPointTest" />
+      <option name="METHOD_NAME" value="post" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrhouseAccountancyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="drhouse-accountancy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="at.nacs.drhouseaccountancy.DrhouseAccountancyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrhouseAdmissionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="drhouse-admission" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="at.nacs.drhouseadmission.DrhouseAdmissionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrhouseBedsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="drhouse-beds" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="at.nacs.drhousebeds.DrhouseBedsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrhouseDiagnosesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="drhouse-diagnoses" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="at.nacs.drhousediagnoses.DrhouseDiagnosesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrhousePharmacyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="drhouse-pharmacy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="at.nacs.drhousepharmacy.DrhousePharmacyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PharmacyEndPointTest.post" />
+        <item itemvalue="JUnit.PatientsEndPointTest.post" />
+        <item itemvalue="JUnit.ApothecaryTest.handel" />
+        <item itemvalue="JUnit.NurseTest.treat" />
+        <item itemvalue="JUnit.BedsEndPointTest.post" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60953b94-4fa7-466e-865b-b2bcbd67e32d" name="Default Changelist" comment="" />
+      <created>1552912739664</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552912739664</updated>
+      <workItem from="1552912747328" duration="14547000" />
+      <workItem from="1553010374656" duration="552000" />
+      <workItem from="1553011027175" duration="6441000" />
+      <workItem from="1553069034888" duration="17656000" />
+      <workItem from="1553242313452" duration="478000" />
+      <workItem from="1553242992058" duration="1966000" />
+      <workItem from="1553246369008" duration="724000" />
+      <workItem from="1553759520488" duration="5658000" />
+      <workItem from="1553774235979" duration="11215000" />
+      <workItem from="1553845940406" duration="7470000" />
+      <workItem from="1553874951436" duration="788000" />
+      <workItem from="1554291617872" duration="712000" />
+      <workItem from="1554453621567" duration="15629000" />
+      <workItem from="1554706190369" duration="7257000" />
+      <workItem from="1554725996785" duration="16000" />
+      <workItem from="1554726451156" duration="63000" />
+      <workItem from="1554727297759" duration="21000" />
+      <workItem from="1554840772783" duration="11333000" />
+      <workItem from="1554879121014" duration="648000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="NurseTest_treat - 2019.03.29 at 10h 20m 08s.xml">
+      <configuration name="NurseTest.treat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NurseTest_treat - 2019.03.29 at 10h 20m 42s.xml">
+      <configuration name="NurseTest.treat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NurseTest_treat - 2019.03.29 at 10h 21m 01s.xml">
+      <configuration name="NurseTest.treat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PharmacyEndPointTest_post - 2019.03.29 at 10h 29m 35s.xml">
+      <configuration name="PharmacyEndPointTest.post" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PharmacyEndPointTest_post - 2019.03.29 at 10h 40m 13s.xml">
+      <configuration name="PharmacyEndPointTest.post" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApothecaryTest_handel - 2019.03.29 at 10h 45m 48s.xml">
+      <configuration name="ApothecaryTest.handel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PatientsEndPointTest_post - 2019.03.29 at 10h 46m 49s.xml">
+      <configuration name="PatientsEndPointTest.post" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PatientsEndPointTest_post - 2019.03.29 at 10h 52m 12s.xml">
+      <configuration name="PatientsEndPointTest.post" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PharmacyEndPointTest_post - 2019.03.29 at 11h 19m 57s.xml">
+      <configuration name="PharmacyEndPointTest.post" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PharmacyEndPointTest_post - 2019.03.29 at 11h 21m 17s.xml">
+      <configuration name="PharmacyEndPointTest.post" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="103174000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="27" width="1533" height="873" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26160052" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39891452" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32971507" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32971507" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.3934871" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32952252" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32952252" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/test/java/at/nacs/drhousediagnoses/logic/DrHouseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-pharmacy/src/test/java/at/nacs/drhousepharmacy/logic/ApothecaryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="28" column="76" selection-start-line="28" selection-start-column="76" selection-end-line="28" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-pharmacy/src/main/java/at/nacs/drhousepharmacy/configuration/RestTemplateConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/communication/PharmacyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-pharmacy/src/main/java/at/nacs/drhousepharmacy/communication/PharmacyEndPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.5.RELEASE/spring-data-commons-2.1.5.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-pharmacy/src/test/java/at/nacs/drhousepharmacy/communication/PharmacyEndPointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-admission/src/main/java/at/nacs/drhouseadmission/communication/DiagnosesClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-admission/src/main/java/at/nacs/drhouseadmission/communication/PatientsEndPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-admission/src/main/java/at/nacs/drhouseadmission/logic/Admission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/configuration/CorsConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/domain/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/domain/Kind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/repository/InvoiceRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/domain/Invoice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/repository/PatientRrpository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/DTO/PatientDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-Doctor House Hospital">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-Doctor House Hospital</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-Doctor House Hospital</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="127.0" y="16.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/at.nacs.drhouseaccountancy">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>at.nacs.drhouseaccountancy</OriginalElement>
+          <nodes>
+            <node x="" y="">at.nacs.drhouseaccountancy.communication.AccountEndPoints</node>
+            <node x="" y="">at.nacs.drhouseaccountancy.DrhouseAccountancyApplicationTests</node>
+            <node x="" y="">at.nacs.drhouseaccountancy.logic.Accountant</node>
+            <node x="" y="">at.nacs.drhouseaccountancy.configuration</node>
+            <node x="" y="">at.nacs.drhouseaccountancy.DrhouseAccountancyApplication</node>
+            <node x="" y="">at.nacs.drhouseaccountancy.persistence</node>
+            <node x="" y="">at.nacs.drhouseaccountancy.DTO.PatientDTO</node>
+            <node x="" y="">at.nacs.drhouseaccountancy.ui</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8924485125858124" x="204.0" y="199.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-beds/src/main/java/at/nacs/drhousebeds/persistence/domain/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-beds/src/main/java/at/nacs/drhousebeds/persistence/repository/BedRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-beds/src/main/java/at/nacs/drhousebeds/communication/BedsEndPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-admission/src/main/java/at/nacs/drhouseadmission/domain/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-beds/src/main/java/at/nacs/drhousebeds/logic/Nurse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-pharmacy/src/main/java/at/nacs/drhousepharmacy/communication/AccountancyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-admission/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/communication/AccountEndPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-beds/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-pharmacy/src/main/java/at/nacs/drhousepharmacy/logic/Apothecary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/logic/Accountant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/communication/BedsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-beds/src/main/java/at/nacs/drhousebeds/communication/AccountancyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="10" column="6" selection-start-line="10" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/DrhouseAccountancyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#350#351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/persistence/domain/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/domain/Symptoms.java" />
+    <entry file="file://$PROJECT_DIR$/drhouse-pharmacy/src/test/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-pharmacy/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="3" selection-start-line="2" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-pharmacy/src/main/java/at/nacs/drhousepharmacy/persistence/domain/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-pharmacy/src/main/java/at/nacs/drhousepharmacy/persistence/repository/PharmacyRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/logic/SymptomAssistant.java" />
+    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/persistence/domain/Symptom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/configuration/RestTemplateConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/logic/DrHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/persistence/repository/SymptomRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/communication/PatientsEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/communication/SymptomEndPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/HttpEncodingAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="899">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/DrhouseDiagnosesApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/logic/Assistant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
