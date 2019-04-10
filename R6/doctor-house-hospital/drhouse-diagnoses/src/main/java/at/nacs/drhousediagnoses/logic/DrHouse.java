@@ -20,33 +20,34 @@ import java.util.Map;
 @Getter
 public class DrHouse {
 
-    private final Map<String, Integer> symptomsbank;
-    private final Map<Integer, String> diagnosisbank;
-    private final BedsClient bedsClient;
-    private final PharmacyClient pharmacyClient;
+  private final Map<String, Integer> symptomsbank;
+  private final Map<Integer, String> diagnosisbank;
+  private final BedsClient bedsClient;
+  private final PharmacyClient pharmacyClient;
 
-    public Patient diagnosis(Patient patient) {
-        doDiagnose(patient);
-        forward(patient);
-        return patient;
-    }
+  public Patient diagnosis(Patient patient) {
+    doDiagnose(patient);
+    forward(patient);
+    return patient;
+  }
 
-    private void doDiagnose(Patient patient) {
-        System.out.println(symptomsbank.entrySet());
-        Integer symptoms = symptomsbank.get(patient.getSymptoms());
-        System.out.println(symptoms);
-        if (symptoms != null) {
-            String diagnosis = diagnosisbank.get(symptoms);
-            patient.setDiagnosis(diagnosis);
-        } else {
-            patient.setDiagnosis("lupus");
-        }
-    }
+  private void doDiagnose(Patient patient) {
 
-    private void forward(Patient patient) {
-        if (patient.getDiagnosis().equals("lupus")) {
-            pharmacyClient.forward(patient);
-        }
-        bedsClient.forward(patient);
+    System.out.println(symptomsbank.entrySet());
+    Integer symptoms = symptomsbank.get(patient.getSymptoms());
+    System.out.println(symptoms);
+    if (symptoms != null) {
+      String diagnosis = diagnosisbank.get(symptoms);
+      patient.setDiagnosis(diagnosis);
+    } else {
+      patient.setDiagnosis("lupus");
     }
+  }
+
+  private void forward(Patient patient) {
+    if (patient.getDiagnosis().equals("lupus")) {
+      pharmacyClient.forward(patient);
+    }
+    bedsClient.forward(patient);
+  }
 }
