@@ -20,19 +20,19 @@ import java.util.Map;
 @Getter
 public class Nurse {
 
-    private final Map<String, String> tretmentsbank;
-    private final BedRepository bedRepository;
-    private final AccountancyClient accountancyClient;
+  private final Map<String, String> tretmentsbank;
+  private final BedRepository bedRepository;
+  private final AccountancyClient accountancyClient;
 
-    public Patient treat(Patient patient) {
-        provideTreatment(patient);
-        accountancyClient.foword(patient);
-        bedRepository.save(patient);
-        return patient;
-    }
+  public Patient treat(Patient patient) {
+    provideTreatment(patient);
+    bedRepository.save(patient);
+    accountancyClient.foword(patient);
+    return patient;
+  }
 
-    private void provideTreatment(Patient patient) {
-        String treatment = tretmentsbank.get(patient.getDiagnosis());
-        patient.setTreatment(treatment);
-    }
+  private void provideTreatment(Patient patient) {
+    String treatment = tretmentsbank.get(patient.getDiagnosis());
+    patient.setTreatment(treatment);
+  }
 }

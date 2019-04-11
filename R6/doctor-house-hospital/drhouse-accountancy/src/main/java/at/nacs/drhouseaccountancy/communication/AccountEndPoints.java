@@ -14,23 +14,25 @@ import java.util.List;
 @RequiredArgsConstructor
 public class AccountEndPoints {
 
-    private final Accountant accountant;
+  private final Accountant accountant;
 
-    @PostMapping("/patients")
-    Patient merge(@RequestBody PatientDTO patientDTO) {
-        System.out.println("i am here post ");
-        return accountant.merge(patientDTO);
-    }
+  @PostMapping("/patients")
+  Patient post(@RequestBody PatientDTO patientDTO) {
 
-    @GetMapping("/invoices")
-    List<Invoice> displlayAllInvoices() {
-        return accountant.displlyAllInvoice();
-    }
+    return accountant.account(patientDTO);
+  }
 
-    @PutMapping("/invoices/{id}/paid")
-    void setAspaid(@PathVariable Long id) {
-        accountant.setAspaid(id);
-    }
-    }
+  @GetMapping("/invoices")
+  List<Invoice> displlayAllInvoices() {
+
+    return accountant.displlyAllInvoice();
+  }
+
+  @PutMapping("/invoices/{id}/paid")
+  void setAspaid(@PathVariable Long id) {
+
+    accountant.setAspaid(id);
+  }
+}
 
 

@@ -17,94 +17,95 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class Accountant {
 
-    private final PatientRrpository patientRrpository;
-    private final InvoiceRepository invoiceRepository;
-    private final PatientDTO patientDTO;
+  private final PatientRrpository patientRrpository;
+  private final InvoiceRepository invoiceRepository;
+  private final PatientDTO patientDTO;
 
-    public Patient merge(PatientDTO patientDTO) {
+  public Patient account(PatientDTO patientDTO) {
 
-        Optional<Patient> patient = patientRrpository.findPatientByUuid(patientDTO.getId());
-        System.out.println("i recive the patient");
-        if (patient.isPresent()) {
-            createsInvoice(patientDTO);
-            return patient.get();
-        }
-
-        saveNewPationt(patientDTO);
-        createsInvoice(patientDTO);
-
-        return patientRrpository.findPatientByUuid(patientDTO.getId()).get();
+    Optional<Patient> patient = patientRrpository.findPatientByUuid(patientDTO.getId());
+    if (patient.isPresent()) {
+      createsInvoice(patientDTO);
+      return patient.get();
     }
 
-    private void saveNewPationt(PatientDTO patientDTO) {
-        Patient patient = new Patient();
-        patient.setName(patientDTO.getName());
-        patient.setUuid(patientDTO.getId());
-        patientRrpository.save(patient);
+    storeNewPationt(patientDTO);
+    createsInvoice(patientDTO);
+    return patientRrpository.findPatientByUuid(patientDTO.getId()).get();
+  }
+
+  private void storeNewPationt(PatientDTO patientDTO) {
+
+    Patient patient = new Patient();
+    patient.setName(patientDTO.getName());
+    patient.setUuid(patientDTO.getId());
+    patientRrpository.save(patient);
+  }
+
+  private void createsInvoice(PatientDTO patientDTO) {
+
+    Patient patient = patientRrpository.findPatientByUuid(patientDTO.getId()).get();
+    Kind kind = getKind(patientDTO);
+    String provided = getProvided(patientDTO, kind);
+
+    Invoice invoice = Invoice.builder()
+                             .patient(patient)
+                             .symptoms(patientDTO.getSymptoms())
+                             .diagnosis(patientDTO.getDiagnosis())
+                             .kind(kind)
+                             .provided(provided)
+                             .cost(calculatesCosts(kind))
+                             .paid(false)
+                             .timestamp(LocalDateTime.now())
+                             .build();
+    invoiceRepository.save(invoice);
+  }
+
+  private Kind getKind(PatientDTO patientDTO) {
+
+    if (patientDTO.getMedicine() == null) {
+      return Kind.TREATMENT;
+    } else {
+      return Kind.MEDICINE;
     }
+  }
 
-    private void createsInvoice(PatientDTO patientDTO) {
-
-        Patient patient = patientRrpository.findPatientByUuid(patientDTO.getId()).get();
-        Kind kind = getKind(patientDTO);
-        String provided = getProvided(patientDTO, kind);
-
-        Invoice invoice = Invoice.builder()
-                .patient(patient)
-                .symptoms(patientDTO.getSymptoms())
-                .diagnosis(patientDTO.getDiagnosis())
-                .kind(kind)
-                .provided(provided)
-                .cost(calculatesCosts(kind))
-                .paid(false)
-                .timestamp(LocalDateTime.now())
-                .build();
-        invoiceRepository.save(invoice);
+  private String getProvided(PatientDTO patientDTO, Kind kind) {
+    String provided = "";
+    switch (kind) {
+      case MEDICINE:
+        provided = patientDTO.getMedicine();
+        break;
+      case TREATMENT:
+        provided = patientDTO.getTreatment();
+        break;
     }
+    return provided;
+  }
 
-    private Kind getKind(PatientDTO patientDTO) {
-        Kind kind = Kind.MEDICINE;
-        if (patientDTO.getMedicine() == null) {
-            kind = Kind.TREATMENT;
-        }
-        System.out.println(kind);
-        return kind;
+  private Double calculatesCosts(Kind kind) {
+
+    double cost = 0.0;
+    switch (kind) {
+      case MEDICINE:
+        cost = 20.00;
+        break;
+      case TREATMENT:
+        cost = 10.00;
+        break;
     }
+    return cost;
+  }
 
-    private String getProvided(PatientDTO patientDTO, Kind kind) {
-        String provided = "";
-        switch (kind) {
-            case MEDICINE:
-                provided = patientDTO.getMedicine();
-                break;
-            case TREATMENT:
-                provided = patientDTO.getTreatment();
-                break;
-        }
-        return provided;
-    }
+  public List<Invoice> displlyAllInvoice() {
 
-    private Double calculatesCosts(Kind kind) {
-        double cost = 0.0;
-        switch (kind) {
-            case MEDICINE:
-                cost = 50.00;
-            case TREATMENT:
-                cost = 100.00;
-                break;
-        }
-        return cost;
-    }
+    return invoiceRepository.findAll();
+  }
 
-    public List<Invoice> displlyAllInvoice() {
+  public void setAspaid(Long id) {
 
-        return invoiceRepository.findAll();
-    }
-
-    public void setAspaid(Long id) {
-
-        Invoice invoice = invoiceRepository.findById(id).orElse(null);
-        invoice.setPaid(true);
-        invoiceRepository.save(invoice);
-    }
+    Invoice invoice = invoiceRepository.findById(id).orElse(null);
+    invoice.setPaid(true);
+    invoiceRepository.save(invoice);
+  }
 }
