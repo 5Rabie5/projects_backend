@@ -1,11 +1,11 @@
 package at.nacs.drhouseaccountancy.logic;
 
-import at.nacs.drhouseaccountancy.DTO.PatientDTO;
+import at.nacs.drhouseaccountancy.communication.dto.PatientDTO;
 import at.nacs.drhouseaccountancy.persistence.domain.Invoice;
 import at.nacs.drhouseaccountancy.persistence.domain.Kind;
 import at.nacs.drhouseaccountancy.persistence.domain.Patient;
 import at.nacs.drhouseaccountancy.persistence.repository.InvoiceRepository;
-import at.nacs.drhouseaccountancy.persistence.repository.PatientRrpository;
+import at.nacs.drhouseaccountancy.persistence.repository.PatientRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -17,52 +17,44 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class Accountant {
 
-  private final PatientRrpository patientRrpository;
+  private final PatientRepository patientRepository;
   private final InvoiceRepository invoiceRepository;
-  private final PatientDTO patientDTO;
 
   public Patient account(PatientDTO patientDTO) {
-
-    Optional<Patient> patient = patientRrpository.findPatientByUuid(patientDTO.getId());
-    if (patient.isPresent()) {
-      createsInvoice(patientDTO);
-      return patient.get();
+    Optional<Patient> patient = patientRepository.findPatientByUuid(patientDTO.getId());
+    if (patient.isEmpty()) {
+      storeNewPatient(patientDTO);
     }
-
-    storeNewPationt(patientDTO);
-    createsInvoice(patientDTO);
-    return patientRrpository.findPatientByUuid(patientDTO.getId()).get();
+    Invoice invoice = createInvoice(patientDTO);
+    invoiceRepository.save(invoice);
+    return patientRepository.findPatientByUuid(patientDTO.getId()).get();
   }
 
-  private void storeNewPationt(PatientDTO patientDTO) {
-
+  private void storeNewPatient(PatientDTO patientDTO) {
     Patient patient = new Patient();
     patient.setName(patientDTO.getName());
     patient.setUuid(patientDTO.getId());
-    patientRrpository.save(patient);
+    patientRepository.save(patient);
   }
 
-  private void createsInvoice(PatientDTO patientDTO) {
-
-    Patient patient = patientRrpository.findPatientByUuid(patientDTO.getId()).get();
+  Invoice createInvoice(PatientDTO patientDTO) {
+    Patient patient = patientRepository.findPatientByUuid(patientDTO.getId()).get();
     Kind kind = getKind(patientDTO);
     String provided = getProvided(patientDTO, kind);
 
-    Invoice invoice = Invoice.builder()
-                             .patient(patient)
-                             .symptoms(patientDTO.getSymptoms())
-                             .diagnosis(patientDTO.getDiagnosis())
-                             .kind(kind)
-                             .provided(provided)
-                             .cost(calculatesCosts(kind))
-                             .paid(false)
-                             .timestamp(LocalDateTime.now())
-                             .build();
-    invoiceRepository.save(invoice);
+    return Invoice.builder()
+                  .patient(patient)
+                  .symptoms(patientDTO.getSymptoms())
+                  .diagnosis(patientDTO.getDiagnosis())
+                  .kind(kind)
+                  .provided(provided)
+                  .cost(calculateCosts(kind))
+                  .paid(false)
+                  .timestamp(LocalDateTime.now())
+                  .build();
   }
 
   private Kind getKind(PatientDTO patientDTO) {
-
     if (patientDTO.getMedicine() == null) {
       return Kind.TREATMENT;
     } else {
@@ -71,20 +63,16 @@ public class Accountant {
   }
 
   private String getProvided(PatientDTO patientDTO, Kind kind) {
-    String provided = "";
     switch (kind) {
       case MEDICINE:
-        provided = patientDTO.getMedicine();
-        break;
+        return patientDTO.getMedicine();
       case TREATMENT:
-        provided = patientDTO.getTreatment();
-        break;
+        return patientDTO.getTreatment();
     }
-    return provided;
+    throw new IllegalArgumentException("Kind not supported: " + kind);
   }
 
-  private Double calculatesCosts(Kind kind) {
-
+  private Double calculateCosts(Kind kind) {
     double cost = 0.0;
     switch (kind) {
       case MEDICINE:
@@ -98,13 +86,15 @@ public class Accountant {
   }
 
   public List<Invoice> displlyAllInvoice() {
-
     return invoiceRepository.findAll();
   }
 
   public void setAspaid(Long id) {
-
-    Invoice invoice = invoiceRepository.findById(id).orElse(null);
+    Optional<Invoice> oInvoice = invoiceRepository.findById(id);
+    if (oInvoice.isEmpty()) {
+      return;
+    }
+    Invoice invoice = oInvoice.get();
     invoice.setPaid(true);
     invoiceRepository.save(invoice);
   }

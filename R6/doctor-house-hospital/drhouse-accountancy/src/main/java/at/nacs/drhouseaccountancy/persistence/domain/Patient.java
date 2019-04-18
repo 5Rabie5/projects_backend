@@ -15,7 +15,8 @@ public class Patient {
   @GeneratedValue
   private Long id;
 
-  private String uuid;// (id that arrived from the DTO)
+  @Column(unique = true)
+  private String uuid;
 
   @Column(unique = true)
   private String name;

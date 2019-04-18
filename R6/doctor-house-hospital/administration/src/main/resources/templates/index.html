@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Message</title>
+
+    <meta charset="UTF-8"/>
+
+    <link media="all" rel="stylesheet" th:href="@{css/style.css}" type="text/css"/>
+
+</head>
+<body>
+
+<h1>NACS Hospital</h1>
+<br>
+<br>
+<br>
+<form method="post" th:action="@{/}" th:object="${patient}">
+    <label>Enter your name</label>
+    <input th:field="*{name}" type="text"/>
+    <br> <br><br><br>
+    <label>Enter your symptoms</label>
+    <!--<input th:field="*{symptoms}" type="text"/>-->
+    <select th:field="*{symptoms}">
+        <option th:each="symptom : ${symptoms}" th:value="${symptom.name}" th:text="${symptom.name}"> option</option>
+    </select>
+    <br><br><br><br>
+    <button type="submit">Submit</button>
+    <p th:errors="*{name}" th:if="${#fields.hasErrors('name')}">Cannot be empty</p>
+</form>
+</body>
+</html>

@@ -1,4 +1,4 @@
-package at.nacs.drhouseaccountancy.DTO;
+package at.nacs.drhouseaccountancy.communication.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,10 +1,10 @@
 package at.nacs.drhouseaccountancy.logic;
 
-import at.nacs.drhouseaccountancy.DTO.PatientDTO;
+import at.nacs.drhouseaccountancy.communication.dto.PatientDTO;
 import at.nacs.drhouseaccountancy.persistence.domain.Invoice;
 import at.nacs.drhouseaccountancy.persistence.domain.Patient;
 import at.nacs.drhouseaccountancy.persistence.repository.InvoiceRepository;
-import at.nacs.drhouseaccountancy.persistence.repository.PatientRrpository;
+import at.nacs.drhouseaccountancy.persistence.repository.PatientRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +19,7 @@ class AccountantTest {
   @Autowired
   Accountant accountant;
   @Autowired
-  PatientRrpository patientRrpository;
+  PatientRepository patientRepository;
   @Autowired
   InvoiceRepository invoiceRepository;
 
@@ -27,7 +27,7 @@ class AccountantTest {
   @BeforeEach
   void befor() {
     invoiceRepository.deleteAll();
-    patientRrpository.deleteAll();
+    patientRepository.deleteAll();
     PatientDTO patientDTO1 = PatientDTO.builder().id("p1").medicine("analgesic2").build();
     PatientDTO patientDTO2 = PatientDTO.builder().id("p2").treatment("analgesic").build();
 
@@ -37,12 +37,12 @@ class AccountantTest {
 
   @Test
   void account() {
-    
+
     Double expctedCostFromPharmacyApp = 20.0;
     Double expctedCostFromBedsApp = 10.0;
 
-    Patient patient1 = patientRrpository.findPatientByUuid("p1").orElse(null);
-    Patient patient2 = patientRrpository.findPatientByUuid("p2").orElse(null);
+    Patient patient1 = patientRepository.findPatientByUuid("p1").orElse(null);
+    Patient patient2 = patientRepository.findPatientByUuid("p2").orElse(null);
     Invoice invoice1 = invoiceRepository.getByPatient(patient1).orElse(null);
     Invoice invoice2 = invoiceRepository.getByPatient(patient2).orElse(null);
 
@@ -51,14 +51,19 @@ class AccountantTest {
   }
 
   @Test
-// this test dost pass
+// this test didn't pass
   void setAspaid() {
-    Patient patient1 = patientRrpository.findPatientByUuid("p1").orElse(null);
+    Patient patient1 = patientRepository.findPatientByUuid("p1").orElse(null);
     Invoice invoice1 = invoiceRepository.getByPatient(patient1).orElse(null);
 
     accountant.setAspaid(invoice1.getId());
 
     assertThat(invoice1.isPaid());
+  }
+
+  @Test
+  void testInvoiceIsCreatedCorrectly() {
+    //accountant.createInvoice()
   }
 }
 

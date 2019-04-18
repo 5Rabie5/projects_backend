@@ -6,14 +6,19 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
+import java.util.List;
 
 @Service
 @RequiredArgsConstructor
 public class Assistant {
-    private  final SymptomRepository symptomRepository;
+  private final SymptomRepository symptomRepository;
 
 
-    public void store(Symptom[] symptoms) {
-        symptomRepository.saveAll(Arrays.asList(symptoms));
-    }
+  public void store(Symptom[] symptoms) {
+    symptomRepository.saveAll(Arrays.asList(symptoms));
+  }
+
+  public List<Symptom> getAll() {
+    return symptomRepository.findAll();
+  }
 }

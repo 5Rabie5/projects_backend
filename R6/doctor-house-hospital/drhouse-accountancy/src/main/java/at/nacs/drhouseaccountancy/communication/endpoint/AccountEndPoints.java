@@ -1,6 +1,6 @@
-package at.nacs.drhouseaccountancy.communication;
+package at.nacs.drhouseaccountancy.communication.endpoint;
 
-import at.nacs.drhouseaccountancy.DTO.PatientDTO;
+import at.nacs.drhouseaccountancy.communication.dto.PatientDTO;
 import at.nacs.drhouseaccountancy.logic.Accountant;
 import at.nacs.drhouseaccountancy.persistence.domain.Invoice;
 import at.nacs.drhouseaccountancy.persistence.domain.Patient;
