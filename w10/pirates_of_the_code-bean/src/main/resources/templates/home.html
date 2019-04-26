@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Templating</title>
+
+    <meta charset="UTF-8"/>
+
+    <link media="all" rel="stylesheet" th:href="@{/css/style.css}" type="text/css"/>
+
+</head>
+<body >
+
+<h1>Jack Sparrow</h1>
+
+
+<h2> <span th:text= "${@diary.decipher}"> </span> </h2>
+<!--${@myBean.doSomething()}-->
+<a th:href="@{/diary}">>>>>>> to diary page</a>
+
+<form method="post" th:action="@{/logout}">
+    <button>Sign Out</button>
+</form>
+
+</body>
+</html>

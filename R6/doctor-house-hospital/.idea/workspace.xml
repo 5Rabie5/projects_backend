@@ -5,27 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60953b94-4fa7-466e-865b-b2bcbd67e32d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drhouse-accountancy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/drhouse-accountancy/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/DTO/PatientDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/communication/dto/PatientDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/communication/AccountEndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/communication/endpoint/AccountEndPoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/configuration/RestTemplateConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/logic/Accountant.java" beforeDir="false" afterPath="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/logic/Accountant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/domain/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/domain/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/domain/Kind.java" beforeDir="false" afterPath="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/domain/Kind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/domain/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/domain/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/repository/PatientRrpository.java" beforeDir="false" afterPath="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/repository/PatientRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drhouse-accountancy/src/test/java/at/nacs/drhouseaccountancy/logic/AccountantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/drhouse-accountancy/src/test/java/at/nacs/drhouseaccountancy/logic/AccountantTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/communication/SymptomEndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/communication/SymptomEndPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/configuration/RestTemplateConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/configuration/RestTemplateConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/logic/Assistant.java" beforeDir="false" afterPath="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/logic/Assistant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/logic/AuthorizationCreater.java" beforeDir="false" afterPath="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/logic/AuthorizationCreater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../doctor-house-hospital/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../doctor-house-hospital/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../w5/three-cup-shuffle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../w5/three-cup-shuffle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/communication/AdmissionClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/communication/AdmissionClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/communication/SymptomClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/communication/SymptomClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/controller/InvoiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/controller/InvoicesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/controller/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/model/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/model/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/administration/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/administration/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/administration/src/main/resources/templates/invoices.html" beforeDir="false" afterPath="$PROJECT_DIR$/administration/src/main/resources/templates/invoices.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../workshop-docker" beforeDir="false" afterPath="$PROJECT_DIR$/../../workshop-docker" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,94 +29,79 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="doctor-house-hospital" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administration/src/main/resources/templates/invoices.html">
+        <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="174">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/communication/dto/PatientDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/administration/src/main/resources/static/css/style.css">
+        <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/domain/Invoice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/controller/InvoiceController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/controller/PatientController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#800#801#0" expanded="true" />
-                <element signature="e#849#850#0" expanded="true" />
-                <element signature="e#879#880#0" expanded="true" />
-                <element signature="e#1144#1145#0" expanded="true" />
-                <element signature="e#1198#1199#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/model/Invoice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/model/Kind.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/model/Patient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/model/Symptom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="551">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/logic/Accountant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="928">
+              <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="37" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/persistence/domain/Symptom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="15" column="8" selection-start-line="14" selection-start-column="2" selection-end-line="15" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/configuration/RestTemplateConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administration/src/main/resources/templates/invoices.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="841">
+              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -136,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administration/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="348">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -145,8 +118,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/communication/AccountantClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="435">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6757">
+              <caret line="292" column="14" selection-start-line="292" selection-start-column="14" selection-end-line="292" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -176,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/drhouse-pharmacy/src/main/java/at/nacs/drhousepharmacy/communication/PharmacyEndPoint.java" />
         <option value="$PROJECT_DIR$/drhouse-pharmacy/src/test/java/at/nacs/drhousepharmacy/communication/PharmacyEndPointTest.java" />
         <option value="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/configuration/CorsConfiguration.java" />
         <option value="$PROJECT_DIR$/drhouse-accountancy/src/main/resources/application.yml" />
@@ -208,7 +189,6 @@
         <option value="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/domain/Patient.java" />
         <option value="$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/logic/Accountant.java" />
         <option value="$PROJECT_DIR$/drhouse-accountancy/src/test/java/at/nacs/drhouseaccountancy/logic/AccountantTest.java" />
-        <option value="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/model/Patient.java" />
         <option value="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/model/Kind.java" />
         <option value="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/configuration/RestTemplateConfiguration.java" />
         <option value="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/controller/patientCnotroller.java" />
@@ -217,16 +197,18 @@
         <option value="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/logic/Assistant.java" />
         <option value="$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/communication/SymptomEndPoint.java" />
         <option value="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/model/Symptom.java" />
-        <option value="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/communication/SymptomClient.java" />
         <option value="$PROJECT_DIR$/administration/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/communication/AdmissionClient.java" />
         <option value="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/controller/InvoiceController.java" />
-        <option value="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/controller/PatientController.java" />
         <option value="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/model/Invoice.java" />
-        <option value="$PROJECT_DIR$/administration/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/administration/src/main/resources/templates/invoices.html" />
-        <option value="$PROJECT_DIR$/administration/src/main/resources/static/css/style.css" />
+        <option value="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/communication/AdmissionClient.java" />
+        <option value="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/controller/InvoicesController.java" />
         <option value="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/communication/AccountantClient.java" />
+        <option value="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/model/Patient.java" />
+        <option value="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/communication/SymptomClient.java" />
+        <option value="$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/controller/PatientController.java" />
+        <option value="$PROJECT_DIR$/administration/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/administration/src/main/resources/static/css/style.css" />
+        <option value="$PROJECT_DIR$/administration/src/main/resources/templates/invoices.html" />
       </list>
     </option>
   </component>
@@ -278,119 +260,6 @@
             <path>
               <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
               <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-              <item name="communication" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="administration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
               <item name="drhouse-accountancy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -442,7 +311,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="drhouseaccountancy" type="462c0819:PsiDirectoryNode" />
               <item name="communication" type="462c0819:PsiDirectoryNode" />
-              <item name="endpoint" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
@@ -452,117 +321,33 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="drhouseaccountancy" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse-accountancy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouseaccountancy" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse-accountancy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="drhousediagnoses" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="drhousediagnoses" type="462c0819:PsiDirectoryNode" />
-              <item name="communication" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="drhousediagnoses" type="462c0819:PsiDirectoryNode" />
               <item name="logic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
               <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-accountancy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="drhousediagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouseaccountancy" type="462c0819:PsiDirectoryNode" />
               <item name="persistence" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
               <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-accountancy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="drhousediagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouseaccountancy" type="462c0819:PsiDirectoryNode" />
               <item name="persistence" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
               <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="drhousediagnoses" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-house-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-house-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="drhouse-diagnoses" type="462c0819:PsiDirectoryNode" />
+              <item name="drhouse-accountancy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -581,7 +366,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555594684416" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555674364167" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -820,6 +605,12 @@
       <workItem from="1555505425273" duration="47000" />
       <workItem from="1555505569147" duration="7620000" />
       <workItem from="1555573492622" duration="12594000" />
+      <workItem from="1555619426807" duration="455000" />
+      <workItem from="1555661406106" duration="6904000" />
+      <workItem from="1555680789379" duration="839000" />
+      <workItem from="1556010895411" duration="148000" />
+      <workItem from="1556092359911" duration="625000" />
+      <workItem from="1556198971052" duration="1529000" />
     </task>
     <servers />
   </component>
@@ -856,7 +647,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169700000" />
+    <option name="totallyTimeSpent" value="180200000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -871,13 +662,13 @@
     <frame x="67" y="27" width="1533" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27101547" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7367387" visible="true" weight="0.31271017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.2632613" side_tool="true" weight="0.095494285" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32971507" />
@@ -894,7 +685,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.38670284" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.3093623" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -911,51 +702,8 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar!/org/springframework/aop/framework/adapter/AfterReturningAdviceAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#585#586#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar!/org/springframework/aop/framework/adapter/DefaultAdvisorAdapterRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/configuration/CorsConfiguration.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1-sources.jar!/org/assertj/core/api/Assertions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5684">
-          <caret line="321" column="41" selection-start-line="321" selection-start-column="41" selection-end-line="321" selection-end-column="41" />
-          <folding>
-            <element signature="e#11389#11390#0" expanded="true" />
-            <element signature="e#11448#11449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="224" column="27" lean-forward="true" selection-start-line="224" selection-start-column="27" selection-end-line="224" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/communication/HDM5.js" />
     <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/communication/assist.java" />
-    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/configuration/RestTemplateConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/repository/PatientRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -993,23 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/communication/dto/PatientDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/domain/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -1041,16 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/logic/Accountant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1073">
-          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/drhouse-admission/src/main/java/at/nacs/drhouseadmission/domain/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -1062,16 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/domain/Invoice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="32" selection-start-line="32" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1152,31 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/logic/Assistant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/communication/SymptomEndPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1974#1975#0" expanded="true" />
-            <element signature="e#1999#2000#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/DrhouseDiagnosesApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1188,76 +874,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administration/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/communication/AdmissionClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/communication/SymptomClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/configuration/RestTemplateConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/controller/InvoiceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/controller/PatientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/model/Invoice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1268,48 +888,304 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/model/Patient.java">
+    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/persistence/domain/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state relative-caret-position="140">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administration/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/communication/AdmissionClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/model/Invoice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/model/Symptom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="232">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/communication/AccountantClient.java">
+    <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/controller/InvoicesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="363">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding>
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administration/src/main/resources/templates/invoices.html">
+    <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/communication/SymptomClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="314">
+          <caret line="19" selection-start-line="19" selection-start-column="2" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administration/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state relative-caret-position="517">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
+            <element signature="e#1183#1184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/view/model/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/at.nacs.administration">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>at.nacs.administration</OriginalElement>
+          <nodes>
+            <node x="446.85277777777776" y="92.0">at.nacs.administration.view.model.Invoice</node>
+            <node x="418.8666666666666" y="266.0">at.nacs.administration.view.controller.InvoicesController</node>
+            <node x="142.74999999999994" y="184.0">at.nacs.administration.view.controller.IndexController</node>
+            <node x="457.0" y="420.0">at.nacs.administration.view.model.Invoice.InvoiceBuilder</node>
+            <node x="332.66666666666663" y="184.0">at.nacs.administration.communication.AccountantClient</node>
+            <node x="314.0" y="343.0">at.nacs.administration.configuration.RestTemplateConfiguration</node>
+            <node x="315.54166666666663" y="0.0">at.nacs.administration.view.model.Patient</node>
+            <node x="480.60277777777776" y="0.0">at.nacs.administration.view.model.Kind</node>
+            <node x="0.0" y="343.0">at.nacs.administration.AdministrationApplicationTests</node>
+            <node x="278.0" y="420.0">at.nacs.administration.view.model.Patient.PatientBuilder</node>
+            <node x="186.5" y="92.0">at.nacs.administration.communication.AdmissionClient</node>
+            <node x="0.0" y="420.0">at.nacs.administration.AdministrationApplication</node>
+            <node x="30.5" y="0.0">at.nacs.administration.view.model.Symptom</node>
+            <node x="10.5" y="92.0">at.nacs.administration.communication.SymptomClient</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="at.nacs.administration.communication.SymptomClient" target="at.nacs.administration.view.model.Symptom">
+              <point x="0.0" y="-16.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+            <edge source="at.nacs.administration.view.controller.IndexController" target="at.nacs.administration.communication.SymptomClient">
+              <point x="-39.49999999999997" y="-16.0" />
+              <point x="182.24999999999997" y="154.0" />
+              <point x="88.0" y="154.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+            <edge source="at.nacs.administration.view.controller.IndexController" target="at.nacs.administration.view.model.Symptom">
+              <point x="-65.83333333333329" y="-16.0" />
+              <point x="155.91666666666666" y="164.0" />
+              <point x="0.0" y="164.0" />
+              <point x="0.0" y="72.0" />
+              <point x="49.666666666666686" y="72.0" />
+              <point x="-38.333333333333314" y="16.0" />
+            </edge>
+            <edge source="at.nacs.administration.view.model.Invoice" target="at.nacs.administration.view.model.Patient">
+              <point x="-24.75" y="-16.0" />
+              <point x="471.60277777777776" y="52.0" />
+              <point x="403.04166666666663" y="52.0" />
+              <point x="37.5" y="16.0" />
+            </edge>
+            <edge source="at.nacs.administration.view.controller.IndexController" target="at.nacs.administration.view.model.Patient">
+              <point x="39.50000000000003" y="-16.0" />
+              <point x="261.25" y="154.0" />
+              <point x="393.29166666666663" y="154.0" />
+              <point x="393.29166666666663" y="72.0" />
+              <point x="353.04166666666663" y="72.0" />
+              <point x="-12.5" y="16.0" />
+            </edge>
+            <edge source="at.nacs.administration.communication.AccountantClient" target="at.nacs.administration.view.model.Invoice">
+              <point x="0.0" y="-16.0" />
+              <point x="417.66666666666663" y="164.0" />
+              <point x="463.35277777777776" y="164.0" />
+              <point x="-33.0" y="16.0" />
+            </edge>
+            <edge source="at.nacs.administration.view.controller.IndexController" target="at.nacs.administration.communication.AdmissionClient">
+              <point x="13.166666666666714" y="-16.0" />
+              <point x="234.91666666666666" y="144.0" />
+              <point x="267.5" y="144.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+            <edge source="at.nacs.administration.communication.AdmissionClient" target="at.nacs.administration.view.model.Patient">
+              <point x="0.0" y="-16.0" />
+              <point x="267.5" y="72.0" />
+              <point x="328.04166666666663" y="72.0" />
+              <point x="-37.5" y="16.0" />
+            </edge>
+            <edge source="at.nacs.administration.view.model.Invoice" target="at.nacs.administration.view.model.Kind">
+              <point x="24.75" y="-16.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+            <edge source="at.nacs.administration.view.controller.InvoicesController" target="at.nacs.administration.communication.AccountantClient">
+              <point x="-58.66666666666663" y="-16.0" />
+              <point x="448.2" y="241.0" />
+              <point x="417.66666666666663" y="241.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+            <edge source="at.nacs.administration.view.controller.InvoicesController" target="at.nacs.administration.view.model.Invoice">
+              <point x="0.0" y="-16.0" />
+              <point x="506.8666666666666" y="241.0" />
+              <point x="513.1666666666666" y="241.0" />
+              <point x="513.1666666666666" y="164.0" />
+              <point x="496.35277777777776" y="164.0" />
+              <point x="0.0" y="16.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="290.0" y="207.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/administration/src/main/resources/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="398">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/logic/Assistant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/communication/SymptomEndPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1974#1975#0" expanded="true" />
+            <element signature="e#2009#2010#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administration/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/persistence/domain/Symptom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="15" column="8" selection-start-line="14" selection-start-column="2" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-diagnoses/src/main/java/at/nacs/drhousediagnoses/configuration/RestTemplateConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administration/src/main/resources/templates/invoices.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administration/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administration/src/main/java/at/nacs/administration/communication/AccountantClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6757">
+          <caret line="292" column="14" selection-start-line="292" selection-start-column="14" selection-end-line="292" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/communication/dto/PatientDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/logic/Accountant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="37" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drhouse-accountancy/src/main/java/at/nacs/drhouseaccountancy/persistence/domain/Invoice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

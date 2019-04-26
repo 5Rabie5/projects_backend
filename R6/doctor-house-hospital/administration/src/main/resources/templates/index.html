@@ -21,7 +21,7 @@
     <label>Enter your symptoms</label>
     <!--<input th:field="*{symptoms}" type="text"/>-->
     <select th:field="*{symptoms}">
-        <option th:each="symptom : ${symptoms}" th:value="${symptom.name}" th:text="${symptom.name}"> option</option>
+        <option th:each="symptom : ${symptoms}" th:value="${symptom}" th:text="${symptom}"> option</option>
     </select>
     <br><br><br><br>
     <button type="submit">Submit</button>

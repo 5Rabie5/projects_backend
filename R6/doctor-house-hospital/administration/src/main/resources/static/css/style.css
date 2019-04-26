@@ -1,7 +1,7 @@
 label {
     font-size: 2em;
     text-align: center;
-    color: greenyellow;
+    /*color: greenyellow;*/
 }
 
 input {
@@ -36,4 +36,20 @@ select {
 
 td {
     font-size: 1em;
+    position: center;
+}
+
+tr {
+    position: -ms-device-fixed;
+}
+
+.header {
+    color: yellow;
+}
+
+#buttonAsPaid {
+    font-size: 0.5em;
+    text-align: center;
+    color: firebrick;
+    size: auto;
 }

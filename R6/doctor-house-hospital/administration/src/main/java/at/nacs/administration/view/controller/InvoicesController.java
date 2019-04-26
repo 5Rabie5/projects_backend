@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 @RequestMapping("/invoices")
 @RequiredArgsConstructor
-public class InvoiceController {
+public class InvoicesController {
   private final AccountantClient accountantClient;
 
   @ModelAttribute("invoice")
@@ -29,7 +29,6 @@ public class InvoiceController {
 
   @PostMapping("/paid")
   String post(@RequestParam Long id) {
-
     accountantClient.post(id);
     return "redirect:/invoices";
   }

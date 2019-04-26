@@ -1,0 +1,9 @@
+h1 {
+    font-size: 10em;
+    text-align: center;
+    color: yellow;
+}
+body {
+    background-image: url("ali-baba.jpg");
+    background-color: saddlebrown;
+}

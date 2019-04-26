@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Templating</title>
+
+    <meta charset="UTF-8"/>
+
+    <link media="all" rel="stylesheet" th:href="@{/css/style.css}" type="text/css"/>
+
+</head>
+<body class="diary" >
+
+<h1>diary page</h1>
+
+<!--<button type="button" value="Hide text" onclick="document.getElementById('hide').style.visibility='hidden'">>decipher diary</button>-->
+
+<a th:href="@{/}">Go to home page</a>
+
+<form method="post" th:action="@{/d}">
+
+    <button >decipher </button>
+</form>
+
+<form method="post" th:action="@{/logout}">
+    <button >Sign Out</button>
+</form>
+
+</body>
+</html>

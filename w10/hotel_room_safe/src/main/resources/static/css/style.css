@@ -1,0 +1,11 @@
+h1 {
+    font-size: 10em;
+    text-align: center;
+    color: cornflowerblue;
+}
+body {
+    background-image: url("city-3120192_1920.jpg");
+}
+body.room {
+    background-image: url("hotel-1330841_1920.jpg");
+}

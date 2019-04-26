@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<h1>invoices</h1>
+<h1 class="header">invoices</h1>
 <br>
 <br>
 <br>
@@ -27,10 +27,10 @@
     </tr>
 
     <tbody>
-    <tr th:each="invoice : ${invoices}">
+    <tr th:each="invoice : ${invoices}" th:object="${invoice}">
         <td th:text="${invoice.patient.name}">Patient</td>
-        <td th:text="${invoice.kind}">Kind</td>
-        <td th:text="${invoice.symptoms}">Symptoms</td>
+        <td th:text="*{kind}">Kind</td>
+        <td th:text="*{symptoms}">Symptoms</td>
         <td th:text="${invoice.diagnosis}">Diagnosis</td>
         <td th:text="${invoice.provided}">Provided</td>
         <td th:text="${invoice.cost}">Cost</td>
@@ -38,7 +38,7 @@
 
         <td th:if="${invoice.paid == false}">
             <form method="post" th:action="@{/invoices/paid}">
-                <input name="id" th:value="${invoice.id}" type="hidden"/>
+                <input id="buttonAsPaid" name="id" th:value="${invoice.id}" type="hidden"/>
                 <button>mark as paid</button>
             </form>
         </td>

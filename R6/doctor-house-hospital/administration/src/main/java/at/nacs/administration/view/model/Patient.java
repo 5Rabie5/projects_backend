@@ -15,5 +15,6 @@ public class Patient {
 
   @NotEmpty
   private String name;
+  @NotEmpty
   private String symptoms;
 }

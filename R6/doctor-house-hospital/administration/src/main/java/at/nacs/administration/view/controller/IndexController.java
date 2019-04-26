@@ -13,13 +13,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.validation.Valid;
-import java.util.Arrays;
 import java.util.List;
 
 @Controller
 @RequestMapping("/")
 @RequiredArgsConstructor
-public class PatientController {
+public class IndexController {
   private final AdmissionClient admissionClient;
   private final SymptomClient symptomClient;
 
@@ -34,8 +33,8 @@ public class PatientController {
   }
 
   @ModelAttribute("symptoms")
-  List<Symptom> symptoms() {
-    return Arrays.asList(symptomClient.getAll());
+  List<String> symptoms() {
+    return symptomClient.getSymtomNames();
   }
 
   @GetMapping

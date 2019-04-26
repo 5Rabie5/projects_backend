@@ -14,6 +14,6 @@ public class AdmissionClient {
   private String url;
 
   public void post(Patient patient) {
-    restTemplate.postForObject("http://localhost:9001/patients", patient, Patient.class);
+    restTemplate.postForObject(url, patient, Patient.class);
   }
 }
