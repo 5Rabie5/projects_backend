@@ -12,7 +12,11 @@ import static org.junit.jupiter.api.Assertions.*;
 class GeneratorTest {
 
   Generator generator = new Generator();
-
+  @Test
+  void generateWonderlandNumberTest() {
+    int expected = 142857;
+    Assertions.assertEquals(expected, generator.generate());
+  }
   @Test
   void haveSameDigitsTest() {
     List<Integer> integers = Arrays.asList(234, 324, 432);

@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="992c4a49-805c-4a78-81d0-1463ef139624" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/logic/Generator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/the-wonderland-number/b1/Generater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/the-wonderland-number/b1/GeneraterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/b1/Generater.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/b1/GeneraterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/the-wonderland-number/logic/GeneratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/GeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/GeneratorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../workshop-docker" beforeDir="false" afterPath="$PROJECT_DIR$/../workshop-docker" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/src/logic/Generator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="203">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <caret line="13" column="77" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,10 +34,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/logic/GeneratorTest.java">
+        <entry file="file://$PROJECT_DIR$/src/Test/GeneratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+            <state relative-caret-position="203">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -81,8 +78,9 @@
         <option value="$PROJECT_DIR$/src/b1/Generater.java" />
         <option value="$PROJECT_DIR$/src/b1/Generator.java" />
         <option value="$PROJECT_DIR$/src/b1/GeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/logic/GeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/logic/Generator.java" />
+        <option value="$PROJECT_DIR$/src/logic/GeneratorTest.java" />
+        <option value="$PROJECT_DIR$/src/Test/GeneratorTest.java" />
       </list>
     </option>
   </component>
@@ -112,18 +110,7 @@
             <path>
               <item name="the-wonderland-number" type="b2602c69:ProjectViewProjectNode" />
               <item name="the-wonderland-number" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="the-wonderland-number" type="b2602c69:ProjectViewProjectNode" />
-              <item name="the-wonderland-number" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="the-wonderland-number" type="b2602c69:ProjectViewProjectNode" />
-              <item name="the-wonderland-number" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -138,7 +125,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556614835527" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556615282404" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -270,23 +257,11 @@
       <workItem from="1556537448556" duration="8369000" />
       <workItem from="1556545835715" duration="15000" />
       <workItem from="1556545859199" duration="6315000" />
-      <workItem from="1556607087491" duration="7719000" />
+      <workItem from="1556607087491" duration="8239000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GeneratorTest_haveSameDigits - 2019.04.30 at 10h 50m 29s.xml">
-      <configuration name="GeneratorTest.haveSameDigits" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GeneratorTest_haveSameDigits - 2019.04.30 at 10h 51m 47s.xml">
-      <configuration name="GeneratorTest.haveSameDigits" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GeneratorTest_haveSameDigits - 2019.04.30 at 10h 52m 20s.xml">
-      <configuration name="GeneratorTest.haveSameDigits" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GeneratorTest_haveSameDigits - 2019.04.30 at 10h 52m 40s.xml">
-      <configuration name="GeneratorTest.haveSameDigits" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GeneratorTest_haveNotSameDigits - 2019.04.30 at 10h 55m 03s.xml">
       <configuration name="GeneratorTest.haveNotSameDigits" configurationId="JUnit" />
     </history-entry>
@@ -305,13 +280,24 @@
     <history-entry file="GeneratorTest_sortNumberAscending - 2019.04.30 at 10h 59m 03s.xml">
       <configuration name="GeneratorTest.sortNumberAscending" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GeneratorTest_(1) - 2019.04.30 at 11h 00m 13s.xml">
+      <configuration name="GeneratorTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeneratorTest - 2019.04.30 at 11h 04m 23s.xml">
+      <configuration name="GeneratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeneratorTest - 2019.04.30 at 11h 06m 13s.xml">
+      <configuration name="GeneratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeneratorTest - 2019.04.30 at 11h 08m 07s.xml">
+      <configuration name="GeneratorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22418000" />
+    <option name="totallyTimeSpent" value="22938000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1533" height="873" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1735037" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -373,20 +359,27 @@
     <entry file="file://$USER_HOME$/IdeaProjects/week9/src/chalenge/App.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/logic/GeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/logic/Generator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <caret line="13" column="77" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/logic/GeneratorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Test/GeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        <state relative-caret-position="203">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>
