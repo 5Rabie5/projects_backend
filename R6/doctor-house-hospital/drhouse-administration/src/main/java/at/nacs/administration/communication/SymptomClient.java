@@ -17,7 +17,7 @@ public class SymptomClient {
   private final RestTemplate restTemplate;
   @Value("${symptoms.server.url}")
   private String url;
-//
+
 //  public List<Symptom> getAll() {
 //    Symptom[] symptoms = restTemplate.getForObject(url, Symptom[].class);
 //    return List.of(symptoms);
@@ -28,7 +28,6 @@ public class SymptomClient {
     return Stream.of(symptoms)
                  .map(Symptom::getName)
                  .collect(toList());
-
   }
 }
 

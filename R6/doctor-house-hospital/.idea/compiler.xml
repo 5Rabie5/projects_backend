@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="administration" />
         <module name="drhouse-accountancy" />
+        <module name="drhouse-administration" />
         <module name="drhouse-admission" />
         <module name="drhouse-beds" />
         <module name="drhouse-diagnoses" />
@@ -18,6 +19,7 @@
       <module name="administration" target="11" />
       <module name="demo" target="11" />
       <module name="drhouse-accountancy" target="11" />
+      <module name="drhouse-administration" target="11" />
       <module name="drhouse-admission" target="11" />
       <module name="drhouse-beds" target="11" />
       <module name="drhouse-diagnoses" target="11" />
@@ -29,6 +31,7 @@
       <module name="administration" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="drhouse-accountancy" options="-parameters" />
+      <module name="drhouse-administration" options="-parameters" />
       <module name="drhouse-admission" options="-parameters" />
       <module name="drhouse-beds" options="-parameters" />
       <module name="drhouse-diagnoses" options="-parameters" />

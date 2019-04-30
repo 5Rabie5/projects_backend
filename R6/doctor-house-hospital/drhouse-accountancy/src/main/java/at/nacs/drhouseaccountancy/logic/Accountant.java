@@ -92,10 +92,12 @@ public class Accountant {
   public void setAspaid(Long id) {
     Optional<Invoice> oInvoice = invoiceRepository.findById(id);
     if (oInvoice.isEmpty()) {
+
       return;
     }
     Invoice invoice = oInvoice.get();
     invoice.setPaid(true);
     invoiceRepository.save(invoice);
   }
+
 }

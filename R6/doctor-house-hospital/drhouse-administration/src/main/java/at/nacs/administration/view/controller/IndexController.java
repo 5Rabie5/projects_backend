@@ -47,6 +47,7 @@ public class IndexController {
     if (bindingResult.hasErrors()) {
       return page();
     }
+
     admissionClient.post(patient);
     return "redirect:/";
   }

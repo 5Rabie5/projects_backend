@@ -32,10 +32,7 @@ public class DrHouse {
   }
 
   private void doDiagnose(Patient patient) {
-
-    System.out.println(symptomsbank.entrySet());
     Integer symptoms = symptomsbank.get(patient.getSymptoms());
-    System.out.println(symptoms);
     if (symptoms != null) {
       String diagnosis = diagnosisbank.get(symptoms);
       patient.setDiagnosis(diagnosis);
@@ -47,7 +44,8 @@ public class DrHouse {
   private void forward(Patient patient) {
     if (patient.getDiagnosis().equals("lupus")) {
       pharmacyClient.forward(patient);
+    } else {
+      bedsClient.forward(patient);
     }
-    bedsClient.forward(patient);
   }
 }

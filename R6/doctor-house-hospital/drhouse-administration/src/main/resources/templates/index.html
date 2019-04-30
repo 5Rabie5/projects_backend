@@ -26,6 +26,8 @@
     <br><br><br><br>
     <button type="submit">Submit</button>
     <p th:errors="*{name}" th:if="${#fields.hasErrors('name')}">Cannot be empty</p>
+    <br><br><br>
+    <a th:href="@{/invoices}">>>>>>> Invoic page</a>
 </form>
 </body>
 </html>
