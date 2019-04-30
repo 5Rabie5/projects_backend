@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 
 public class Generator {
 
-  List<Integer> multipliedNumbers = Arrays.asList(2, 3, 4, 5, 6);
+  private final List<Integer> multipliedNumbers = Arrays.asList(2, 3, 4, 5, 6);
 
   public int generate() {
     int wonderlandNumberMultipliedBy2 = getListOfMultipliedByWonderlandNumber().get(0);
@@ -16,6 +16,7 @@ public class Generator {
   }
 
   private List<Integer> getListOfMultipliedByWonderlandNumber() {
+
     return IntStream.range(100000, 999999)
                     .mapToObj(this::getListOfMultipliedByPossibleNumber)
                     .filter(this::haveSameDigits)

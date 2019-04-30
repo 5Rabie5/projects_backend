@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class GeneratorTest {
 
-  Generator generator = new Generator();
+  private final Generator generator = new Generator();
   @Test
   void generateWonderlandNumberTest() {
     int expected = 142857;
