@@ -154,17 +154,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GeneratorTest (1)">
+  <component name="RunManager" selected="JUnit.GeneratorTest">
     <configuration name="GeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="the-wonderland-number" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.GeneratorTest" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.GeneratorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,7 +174,7 @@
       <module name="the-wonderland-number" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,12 +190,12 @@
       <module name="the-wonderland-number" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.GeneratorTest" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.GeneratorTest" />
       <option name="METHOD_NAME" value="haveNotSameDigits" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -206,12 +206,12 @@
       <module name="the-wonderland-number" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.GeneratorTest" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.GeneratorTest" />
       <option name="METHOD_NAME" value="haveSameDigits" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -222,12 +222,12 @@
       <module name="the-wonderland-number" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.GeneratorTest" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.GeneratorTest" />
       <option name="METHOD_NAME" value="sortNumberAscending" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -236,7 +236,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GeneratorTest (1)" />
         <item itemvalue="JUnit.GeneratorTest.sortNumberAscending" />
         <item itemvalue="JUnit.GeneratorTest.haveNotSameDigits" />
         <item itemvalue="JUnit.GeneratorTest.haveSameDigits" />
