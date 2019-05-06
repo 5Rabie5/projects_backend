@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Message</title>
-
-    <meta charset="UTF-8"/>
-
-    <link media="all" rel="stylesheet" th:href="@{css/style.css}" type="text/css"/>
+    <title>Invoices</title>
+    <object th:include="fragments/resources :: head" th:remove="tag"></object>
 
 </head>
 <body>
 
 <h1 class="header">invoices</h1>
+<header>
+    <object th:include="fragments/navigation :: menu" th:remove="tag"></object>
+</header>
 <br>
 <br>
 <br>

@@ -1,0 +1,8 @@
+#spring:
+#  datasource:
+#    url: jdbc:mysql://localhost/the_codiattis_secret_order?useSSL=false
+#    username: luser
+#    password: nacs
+#  jpa:
+#    hibernate:
+#      ddl-auto: update

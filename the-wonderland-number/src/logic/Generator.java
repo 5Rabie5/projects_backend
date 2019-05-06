@@ -23,8 +23,8 @@ public class Generator {
                     .findFirst().get();
   }
 
-  private List<Integer> getListOfMultipliedByPossibleNumber(int PossibleWonderlandNumber) {
-    return multipliedNumbers.stream().map(integer -> integer * PossibleWonderlandNumber)
+  private List<Integer> getListOfMultipliedByPossibleNumber(int possibleWonderlandNumber) {
+    return multipliedNumbers.stream().map(integer -> integer * possibleWonderlandNumber)
                             .collect(Collectors.toList());
   }
 

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home</title>
+</head>
+<body>
+
+<h1>Codiattis Secret Order Members</h1>
+<br><br>
+<p>Hello, <span th:text="${user.username}"> CSO </span></p>
+
+<h3>Codiatti Secret Order user</h3>
+<br><br>
+<ul>
+    <li th:each="user : ${users}" th:text="${user.username}">Members</li>
+</ul>
+<br><br><br>
+<form method="post" th:action="@{/}">
+    <fieldset>
+        <input  name="username" placeholder="Username" type="text" value=""/>
+        <input name="password" placeholder="Password" type="password"/>
+    </fieldset>
+    <button>Invite</button>
+</form>
+
+
+
+
+
+
+<form th:action="@{/logout}" method="post">
+    <input type="submit" value="Sign Out"/>
+</form>
+</body>
+</html>
