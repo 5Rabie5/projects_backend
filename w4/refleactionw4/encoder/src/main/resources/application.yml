@@ -3,5 +3,5 @@ server:
 
 encoderclient:
   server:
-   url: http://localhost:9001/morse
+   url: http://localhost:9002/morse
 
